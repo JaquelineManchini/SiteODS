@@ -5,12 +5,12 @@ body, h1, h2, h3, h4, p, iframe, img {
 }
 
 body {
-    background-color: #c8e6c9; /* Cor de fundo verde claro */
+    background-color: #c8e6c9; 
     font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #4caf50; /* Cor de fundo verde escuro para o cabeçalho */
+    background-color: #4caf50;
     color: white;
     padding: 10px 0;
 }
@@ -26,11 +26,11 @@ header {
 }
 
 h1, h2, h3, h4 {
-    color: #4caf50; /* Cor de texto verde escuro para os títulos */
+    color: #4caf50;
 }
 
 p {
-    color: #333; /* Cor de texto padrão */
+    color: #333; 
     line-height: 1.6;
 }
 
@@ -71,7 +71,7 @@ p {
 }
 
 footer {
-    background-color: #4caf50; /* Cor de fundo verde escuro para o rodapé */
+    background-color: #4caf50; 
     color: white;
     padding: 10px 0;
     text-align: center;
