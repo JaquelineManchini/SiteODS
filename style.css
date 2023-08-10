@@ -1,98 +1,116 @@
-/* Estilos CSS para a página */
-body {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 1;
-    padding: 1;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fome nunca mais!</title>
+    <style>
+        body {
+            background-color: #c8e6c9; /* Cor de fundo verde claro */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
 
-.menu {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
+        header {
+            background-color: #4caf50; /* Cor de fundo verde escuro para o cabeçalho */
+            color: white;
+            padding: 10px 0;
+        }
 
-.menu a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-    padding: 5px 10px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-}
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
 
-.menu a:hover {
-    background-color: #fff;
-    color: #333;
-}
+        .section {
+            padding: 30px;
+        }
 
-.section {
-    padding: 40px;
-    text-align: center;
-}
+        h1, h2, h3, h4 {
+            color: #4caf50; /* Cor de texto verde escuro para os títulos */
+        }
 
-.section h2 {
-    font-size: 24px;
-}
+        p {
+            color: #333; /* Cor de texto padrão */
+            line-height: 1.6;
+        }
 
-.section p {
-    font-size: 16px;
-}
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
 
-.videos {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
+        .video {
+            width: 48%;
+            margin-bottom: 20px;
+        }
 
-.video {
-    width: 30%;
-}
+        .projects img {
+            max-width: 100%;
+        }
 
-.video iframe {
-    width: 100%;
-    height: 200px;
-}
+        .info-item {
+            width: 30%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-.projects img {
-    width: 100%;
-    max-width: 300px;
-    cursor: pointer;
-}
+        .info-item img {
+            max-width: 100%;
+        }
 
-.info {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
+        .profile-img {
+            max-width: 100%;
+            margin-top: 20px;
+        }
 
-.info-item {
-    width: 30%;
-}
+        .sb1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-.info-item img {
-    width: 100%;
-    max-width: 200px;
-    cursor: pointer;
-}
+        footer {
+            background-color: #4caf50; /* Cor de fundo verde escuro para o rodapé */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
+<body>
+    <header>
+        <section id="cabeçalho">
+            <img class="logo" src="imagens/agricultura.jpg.jpeg" alt="logomarca">
+            <div class="menu">
+                <a href="#saiba-mais">Saiba Mais</a>
+                <a href="#projetos">Projetos e Soluções</a>
+                <a href="#mais-informacoes">Mais Informações</a>
+                <a href="#quem-sou">Quem Sou</a>
+            </div>
+        </section>
+    </header>
 
-.profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
+    <section class="section">
+        <!-- Conteúdo da seção -->
+    </section>
+
+    <!-- Restante do conteúdo -->
+
+    <footer>
+        <h4>Fontes</h4>
+        <div class="rodape">
+            <!-- Conteúdo do rodapé -->
+        </div>
+        <p class="ano">2023</p>
+    </footer>
+</body>
+
+</html>
+
 
