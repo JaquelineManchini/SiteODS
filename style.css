@@ -23,7 +23,7 @@ header {
     position: relative;
 }
 
-#cabeçalho {
+#cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -56,7 +56,7 @@ a {
     padding: 10px;
 }
 
-#cabeçalho nav a:hover {
+#cabecalho nav a:hover {
     background-color: rgba(42, 165, 85, 0.58);
 }
 
